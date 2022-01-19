@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class UIScriptTemplate : UIBase
+{
+
+
+
+
+
+
+
+
+
+
+
+
+	/// <summary>
+    ///	OnUIDestroy方法必须在OnDestroy中调用 
+    /// </summary>
+	protected override void OnDestroy()
+	{
+		base.OnDestroy();
+	}
+}
